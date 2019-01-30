@@ -77,6 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.collect do |holiday, supplies|
       new_array.push(holiday) if supplies.include?("BBQ")
       new_array = new_array[1]
+      return new_array
     end
   end
 end
