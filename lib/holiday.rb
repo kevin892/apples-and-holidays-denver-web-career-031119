@@ -50,6 +50,7 @@ def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
 array = holiday_hash.values
 array.flatten
+return array
 
 end
 
