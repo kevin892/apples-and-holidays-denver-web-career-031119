@@ -76,9 +76,7 @@ end
 
     holiday_hash.collect do |season, holiday|
       holiday.collect do |holiday, supplies|
-      for(i = 0; i< i.length;i++)
-        if i == "BBQ"
-          return holiday
+      holiday.values
       end
     end
   end
