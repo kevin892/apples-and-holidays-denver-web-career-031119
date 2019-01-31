@@ -73,8 +73,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
 
-  holiday_hash[:season][:holiday_name].values
+  holiday_hash[season][holiday_name].values
 
 
     end
-  
