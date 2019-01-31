@@ -73,7 +73,7 @@ end
 
 def all_holidays_with_bbq(holiday_hash)
 
-  holiday_hash.collect[season][holiday_name].valeues
+  holiday_hash.collect[season][holiday_name].values
 
 
     end
