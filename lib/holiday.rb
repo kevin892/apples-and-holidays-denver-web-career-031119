@@ -76,7 +76,7 @@ end
 
     holiday_hash.collect do |season, holiday|
       holiday.collect do |holiday, supplies|
-      if supplies.include?("BBQ")
+      if supplies == "BBQ"
          holiday
       end
       end
