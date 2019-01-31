@@ -79,6 +79,4 @@ end
       holiday.values
       end
     end
-  end
-  end
 end
