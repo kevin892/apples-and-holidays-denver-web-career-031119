@@ -80,5 +80,5 @@ end
          holiday
       end
       end
-    end.flatten.compacts
+    end.flatten.compact
   end
