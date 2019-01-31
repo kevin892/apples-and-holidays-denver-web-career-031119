@@ -78,8 +78,5 @@ end
       holiday.map do |holiday, item|
         holiday if item.include?("BBQ")
       end
-      include Enumerable
-
-      def each(&block)
-        
-      end
+    end
+  end 
