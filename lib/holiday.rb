@@ -78,7 +78,7 @@ end
       holiday.collect do |holiday, supplies|
       if supplies.include?("BBQ")
          new_array.push(holiday)
-         new_array
+         new_array[3]
       end
       end
     end
